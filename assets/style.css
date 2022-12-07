@@ -1,0 +1,138 @@
+:root{
+    --preto: #343434;
+    --branco:#ffffff;
+    --fonte: Arial, Helvetica, sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+	
+body {
+
+    color: var(--cor);
+    background: var(--bg);
+    overflow: hidden;
+}
+
+.tema-claro{
+    --cor: var(--preto);
+    --bg: var(--branco);
+    --bg-bt: var(--branco);
+}
+
+.tema-escuro{
+    --cor: var(--branco);
+    --bg: var(--preto);
+    --bg-bt: var(--preto);
+}
+
+.container{
+    text-align: center;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.linha{
+    line-height: 20px;
+}
+
+.nome{
+    font-family: var(--fonte);
+    font-size: 50px;
+}
+
+h1,h2:hover{
+    cursor: default;
+}
+
+.sobre{
+    font-size: 22px;
+    font-family: var(--fonte);
+}
+
+.social{
+    display: inline-block;
+}
+
+.icon{
+    display: inline-block;
+    color: var(--cor);
+    font-size: 50px;
+    max-width:500px;
+    max-height:650px;
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
+
+.icon:hover{
+    cursor:pointer;
+}
+
+.alinhar-baixo-direita{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.bt{
+    font-size: 30px;
+    border-radius: 50%;
+    border: none;
+    color: var(--cor);
+    background-color: var(--bg-bt);
+}
+
+.bt:focus{
+    outline-style: none;
+}
+
+.bt:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+
+    body{
+        overflow: hidden;
+    }
+
+    .linha{
+        display: table-column;
+        line-height: 50px;
+    }
+    
+    .nome{
+        font-family: var(--fonte);
+        font-size: 30px;
+    }
+    
+    .sobre{
+        font-size: 15px;
+        line-height: 22px;
+        font-family: var(--fonte);
+        
+    }
+    
+    .social{
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .icon{
+        color: var(--cor);
+        font-size: 20px;
+        max-width:500px;
+        max-height:650px;
+        width: auto;
+        height: auto;
+        padding: 10px;
+    }
+
+}
