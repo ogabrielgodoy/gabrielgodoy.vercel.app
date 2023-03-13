@@ -134,5 +134,10 @@ h1,h2:hover{
         height: auto;
         padding: 10px;
     }
+    .rodape{
+	font-size: 12px;
+        line-height: 22px;
+        font-family: var(--fonte);
 
+	}
 }
