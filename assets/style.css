@@ -73,6 +73,7 @@ h1,h2:hover{
 
 .icon:hover{
     cursor:pointer;
+    transform: scale(1.5);
 }
 
 .alinhar-baixo-direita{
