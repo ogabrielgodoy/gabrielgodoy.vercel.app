@@ -1,10 +1,10 @@
 # Site Pessoal - Gabriel Godoy
 
-Este é o repositório do meu site pessoal, onde compartilho informações sobre mim e meu trabalho como Designer gráfico, Técnico em informática e desenvolvedor web. No site, você encontrará detalhes sobre minha experiência, projetos anteriores e links para minhas redes sociais e perfis online.
+Este é o repositório do meu site pessoal, onde compartilho informações sobre mim e meu trabalho. No site, você encontrará links para minhas redes sociais e perfis online.
 
 ## Visite o Site
 
-Você pode acessar meu site pessoal online [clicando aqui](https://ogabrielgodoy.com,br).
+Você pode acessar meu site pessoal [clicando aqui](https://ogabrielgodoy.com,br).
 
 ## Conteúdo
 
@@ -21,7 +21,7 @@ Conecte-se comigo nas redes sociais:
 
 ## Licença
 
-Este projeto é distribuído sob a licença MIT. Sinta-se à vontade para explorar o código-fonte do site e personalizá-lo de acordo com suas necessidades.
+Sinta-se à vontade para explorar o código-fonte do site e personalizá-lo de acordo com suas necessidades.
 
 ## Como Usar
 
